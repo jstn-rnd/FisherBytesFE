@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './css/LoginForm.css';
+import './css/SignupForm.css';
 
 function SignupForm() {
   return (
@@ -10,19 +10,19 @@ function SignupForm() {
         <label htmlFor="first-name">First Name</label>
         <input 
           type="text" 
-          placeholder="Juan" 
+          placeholder="First Name" 
         />
 
         <label htmlFor="middle-ini">Middle Initial</label>
         <input 
           type="text" 
-          placeholder="D." 
+          placeholder="Middle Initial" 
         />
         
         <label htmlFor="last-name">Last Name</label>
         <input 
           type="text" 
-          placeholder="Cruz" 
+          placeholder="Last Name" 
         />
         
         <label htmlFor="email">Email</label>
