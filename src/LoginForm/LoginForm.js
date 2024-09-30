@@ -6,8 +6,8 @@ function LoginForm() {
 
   return (
     <div className="login-form">
-      <h2>Reset Password</h2>
-      <p>Enter your new password below.</p>
+      <h2>Login Form</h2>
+      <p>Enter your email and password.</p>
       <form>
         <label htmlFor="email">Email</label>
         <input 

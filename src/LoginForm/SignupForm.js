@@ -4,8 +4,8 @@ import './css/LoginForm.css';
 function SignupForm() {
   return (
     <div className="signup-form">
-      <h2>Login Form</h2>
-      <p>Enter your email and password.</p>
+      <h2>Signup Form</h2>
+      <p>Enter your credentials.</p>
       <form>
         <label htmlFor="first-name">First Name</label>
         <input 
