@@ -20,12 +20,7 @@ function LoginForm() {
           type="password" 
           placeholder="**********" 
         />
-        
-        <label htmlFor="confirm-pass">Confirm Password</label>
-        <input 
-          type="password" 
-          placeholder="**********" 
-        />
+      
         
         <button type="submit">Submit</button>
       </form>

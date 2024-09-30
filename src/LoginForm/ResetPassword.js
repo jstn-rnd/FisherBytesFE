@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import './css/LoginForm.css'
+import './css/ResetPassword.css'
 
 function ResetPassword() {
   return (

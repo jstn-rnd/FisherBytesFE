@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+html{
+  -webkit-tap-highlight-color: transparent;
+}
+:root {
+  /* Green Monochromatic Colors */
+  --green-base: #00FF00;    /* Pure Green */
+  --green-tint1: #33FF33;   /* Lighter green */
+  --green-tint2: #66FF66;   /* Even lighter green */
+  --green-shade1: #00CC00;  /* Darker green */
+  --green-shade2: #009900;  /* Even darker green */
+  --green-tone1: #669966;   /* Muted green */
+
+  /* Blue Monochromatic Colors */
+  --lightblue-base: #ADD8E6;
+  --blue-base: #0000FF;     /* Pure Blue */
+  --blue-tint1: #3333FF;    /* Lighter blue */
+  --blue-tint2: #6666FF;    /* Even lighter blue */
+  --blue-shade1: #0000CC;   /* Darker blue */
+  --blue-shade2: #000099;   /* Even darker blue */
+  --blue-tone1: #666699;    /* Muted blue */
+}
+body{
+  /* Radial gradient with three colors, starting at the center */
+background: radial-gradient(circle, #ADD8E6, #666699);
+
+}
+/* Styles for the login form container */
+.login-form {
+  width: 300px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for the form heading */
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--lightblue-base);
+  text-shadow: 
+  2px 2px 0px black,  /* Right bottom */
+  2px 2px 0px black, /* Left bottom */
+  2px 2px 0px black, /* Right top */
+  2px 2px 0px black; /* Left top */
+}
+
+.login-form p{
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Styles for the form labels */
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+}
+
+/* Styles for the input fields */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styles for the submit button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--lightblue-base);
+  color: white;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 
+  2px 2px 0px black,  /* Right bottom */
+  2px 2px 0px black, /* Left bottom */
+  2px 2px 0px black, /* Right top */
+  2px 2px 0px black; /* Left top */
+
+}
+
+/* Hover effect for the submit button */
+.login-form button:hover {
+  opacity: 0.8;
+}
