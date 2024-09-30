@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './Dashboard.css'
+import { useNavigate } from 'react-router-dom';
+import './css/Dashboard.css'
 
 function Dashboard() {
   return (
