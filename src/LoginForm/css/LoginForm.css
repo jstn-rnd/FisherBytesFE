@@ -29,7 +29,10 @@ html{
 body{
   /* Radial gradient with three colors, starting at the center */
 background: radial-gradient(circle, #ADD8E6, #666699);
-
+  
+  a {
+    color: #105bbe;
+  }
 }
 /* Styles for the login form container */
 .login-form {

@@ -5,45 +5,46 @@ function SignupForm() {
   return (
     <div className="signup-form">
       <h2>Signup Form</h2>
-      <p>Enter your credentials.</p>
+      <p>Create your account.</p>
       <form>
-        <label htmlFor="first-name">First Name</label>
+        <label htmlFor="first-name">First Name<span> * </span></label>
         <input 
           type="text" 
-          placeholder="First Name" 
+          placeholder="Juan" 
         />
 
-        <label htmlFor="middle-ini">Middle Initial</label>
+        <label htmlFor="middle-ini">Middle Initial<span> * </span></label>
         <input 
           type="text" 
-          placeholder="Middle Initial" 
+          placeholder="D." 
         />
         
-        <label htmlFor="last-name">Last Name</label>
+        <label htmlFor="last-name">Last Name<span> * </span></label>
         <input 
           type="text" 
-          placeholder="Last Name" 
+          placeholder="Cruz" 
         />
         
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Email<span> * </span></label>
         <input 
           type="email" 
-          placeholder="Email Address" 
+          placeholder="email@sample.com" 
         />
         
-        <label htmlFor="pass">Enter Password</label>
+        <label htmlFor="pass">Enter Password<span> * </span></label>
         <input 
           type="password" 
           placeholder="**********" 
         />
         
-        <label htmlFor="confirm-pass">Confirm Password</label>
+        <label htmlFor="confirm-pass">Confirm Password<span> * </span></label>
         <input 
           type="password" 
           placeholder="**********" 
         />
         
         <button type="submit">Submit</button>
+        <a href="/login">Already have an account?</a>
       </form>
     </div>
   )

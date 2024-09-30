@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   width: 350px;
-  margin: 0 auto;
+  margin: 60px auto;
   padding: 25px;
   background-color: whitesmoke;
   border-radius: 10px;
@@ -32,6 +32,10 @@
   2px 2px 0px black; /* Left top */
 }
 
+.change-email {
+  display: flex;
+}
+
 /* Instructional text */
 .signup-form p {
   margin-bottom: 10px;
@@ -46,6 +50,10 @@
   margin-bottom: 8px;
   color: #333;
   align-self: flex-start; /* Aligns the labels to the left */
+
+  span {
+    color: red;
+  }
 }
 
 /* Input field styling */

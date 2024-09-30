@@ -3,7 +3,6 @@ import './css/LoginForm.css';
 
 function LoginForm() {
 
-
   return (
     <div className="login-form">
       <h2>Login Form</h2>
@@ -12,7 +11,7 @@ function LoginForm() {
         <label htmlFor="email">Email</label>
         <input 
           type="email" 
-          placeholder="Email Address" 
+          placeholder="email@sample.com" 
         />
         
         <label htmlFor="pass">Enter Password</label>
@@ -20,9 +19,10 @@ function LoginForm() {
           type="password" 
           placeholder="**********" 
         />
-      
         
         <button type="submit">Submit</button>
+        <a href="/forgot-password">Forgot Password?</a> <br/>
+        <a href="/signup">Create an Account</a>
       </form>
     </div>
   )

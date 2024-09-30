@@ -9,11 +9,15 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Index */}
         <Route exact path="/" element={<LoginForm />} />
-        <Route exact path="/" element={<SignupForm />} />
-        <Route exact path="/" element={<ForgotPassword />} />
-        <Route exact path="/" element={<ResetPassword />} />
-        <Route exact path="/" element={<Dashboard />} />
+
+        {/* Redirect Path */}
+        <Route exact path="/login" element={<LoginForm />} />
+        <Route exact path="/signup" element={<SignupForm />} />
+        <Route exact path="/forgot-password" element={<ForgotPassword />} />
+        <Route exact path="/reset-password" element={<ResetPassword />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
