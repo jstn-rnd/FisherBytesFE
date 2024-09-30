@@ -10,10 +10,10 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<LoginForm />} />
-        {/* <Route exact path="/" element={<SignupForm />} />
+        <Route exact path="/" element={<SignupForm />} />
         <Route exact path="/" element={<ForgotPassword />} />
         <Route exact path="/" element={<ResetPassword />} />
-        <Route exact path="/" element={<Dashboard />} /> */}
+        <Route exact path="/" element={<Dashboard />} />
       </Routes>
     </Router>
   );
