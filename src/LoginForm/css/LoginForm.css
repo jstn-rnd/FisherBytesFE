@@ -28,16 +28,16 @@ html{
 }
 body{
   /* Radial gradient with three colors, starting at the center */
-background: radial-gradient(circle, #ADD8E6, #666699);
-  
-  a {
-    color: #105bbe;
-  }
+  background: radial-gradient(circle, #ADD8E6, #666699);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
+
 /* Styles for the login form container */
 .login-form {
-  width: 300px;
-  margin: 150px auto;
+  max-width: 300px;
   padding: 20px;
   background-color: whitesmoke;
   border-radius: 8px;
@@ -105,4 +105,18 @@ background: radial-gradient(circle, #ADD8E6, #666699);
 /* Hover effect for the submit button */
 .login-form button:hover {
   opacity: 0.8;
+}
+
+.link-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+a {
+  color: var(--blue-shade2);
 }

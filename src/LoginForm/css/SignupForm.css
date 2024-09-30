@@ -1,11 +1,13 @@
 /* Container for the signup form */
 .signup-form {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 350px;
-  margin: 60px auto;
+  max-width: 350px;
+  margin: 100px auto;
+  margin-bottom: 0;
   padding: 25px;
   background-color: whitesmoke;
   border-radius: 10px;
@@ -16,7 +18,6 @@
 .signup-form form {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 /* Heading style */
@@ -91,9 +92,13 @@
   opacity: 0.8;
 }
 
-/* Media query for smaller devices */
-@media (max-width: 400px) {
-  .signup-form {
-    width: 90%;
-  }
+.link-containerrr{
+  display:flex;
+  font-size: 13px;
+  margin-top: 10px;
 }
+
+a {
+  color: var(--blue-shade2);
+}
+

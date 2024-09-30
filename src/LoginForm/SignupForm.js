@@ -45,7 +45,9 @@ function SignupForm() {
         />
         
         <button type="submit">Submit</button>
-        <a href="/login">Already have an account?</a>
+        <div className='link-containerrr'>
+          <a href="/login">Already have an account?</a>
+        </div>
       </form>
     </div>
   )

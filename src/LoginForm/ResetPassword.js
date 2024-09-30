@@ -26,7 +26,9 @@ function ResetPassword() {
         />
         
         <button type="submit">Reset</button>
-        <a href="/login">Cancel</a>
+        <div className='link-containerr'>
+          <a href="/login">Cancel</a>
+        </div>
       </form>
     </div>
   );

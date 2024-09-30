@@ -22,8 +22,10 @@ function LoginForm() {
         />
         
         <button type="submit">Submit</button>
-        <a href="/forgot-password">Forgot Password?</a> <br/>
+        <div className='link-container'>
+        <a href="/forgot-password">Forgot Password?</a> 
         <a href="/signup">Create an Account</a>
+        </div>
       </form>
     </div>
   )

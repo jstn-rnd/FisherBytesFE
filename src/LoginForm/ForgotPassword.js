@@ -30,7 +30,9 @@ function ForgotPassword() {
 
         {/* <button type="submit">Submit</button> */}
         <button type="button" onClick={handleSubmit}>Submit</button>
-        <a href="/login">Cancel</a>
+        <div className='link-containerr'>
+          <a href="/login">Cancel</a>
+        </div>
       </form>
     </div>
   )
