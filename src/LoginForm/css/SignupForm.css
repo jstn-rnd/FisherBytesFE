@@ -24,7 +24,7 @@
 .signup-form h2 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: var(--lightblue-base);
+  color: var(--emerald);
   text-align: center;
   text-shadow: 
   2px 2px 0px black,  /* Right bottom */
@@ -72,7 +72,7 @@
 .signup-form button {
   width: 100%;
   padding: 10px;
-  background-color: var(--lightblue-base);
+  background-color: var(--emerald);
   color: white;
   border: 1.5px solid black;
   border-radius: 4px;

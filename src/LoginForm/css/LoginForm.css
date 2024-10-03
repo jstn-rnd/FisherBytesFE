@@ -16,6 +16,7 @@ html{
   --green-shade1: #00CC00;  /* Darker green */
   --green-shade2: #009900;  /* Even darker green */
   --green-tone1: #669966;   /* Muted green */
+  --emerald: #50c878;       /* Emerald */
 
   /* Blue Monochromatic Colors */
   --lightblue-base: #ADD8E6;
@@ -49,7 +50,7 @@ body{
 .login-form h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: var(--lightblue-base);
+  color: var(--emerald);
   text-shadow: 
   2px 2px 0px black,  /* Right bottom */
   2px 2px 0px black, /* Left bottom */
@@ -86,7 +87,7 @@ body{
 .login-form button {
   width: 100%;
   padding: 10px;
-  background-color: var(--lightblue-base);
+  background-color: var(--emerald);
   color: white;
   border: 1.5px solid black;
   border-radius: 4px;
