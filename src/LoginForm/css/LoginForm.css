@@ -27,14 +27,6 @@ html{
   --blue-shade2: #000099;   /* Even darker blue */
   --blue-tone1: #666699;    /* Muted blue */
 }
-body{
-  /* Radial gradient with three colors, starting at the center */
-  background: radial-gradient(circle, #ADD8E6, #666699);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
 
 /* Styles for the login form container */
 .login-form {

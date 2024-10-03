@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './css/LoginForm.css';
-
+import './css/General.css';
 function LoginForm() {
 
   return (

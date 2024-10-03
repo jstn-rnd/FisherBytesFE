@@ -1,0 +1,7 @@
+body{
+  /* Radial gradient with three colors, starting at the center */
+  background: radial-gradient(circle, #ADD8E6, #666699);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  
+}
