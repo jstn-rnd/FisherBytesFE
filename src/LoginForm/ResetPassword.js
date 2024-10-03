@@ -8,9 +8,8 @@ function ResetPassword() {
       <h2>Reset Password</h2>
       <p>Enter your new password for:</p>
       <div className="change-email">
-        <p><span>email@sample.com</span></p>
-        &nbsp;&nbsp;
-        <a href="/forgot-password">Change email?</a>
+        <p className='change-email-text'><span>email@sample.com</span></p>
+        <a className="change-mail-link" href="/forgot-password">Change email?</a>
       </div>
       <form>
         <label htmlFor="pass"></label>
